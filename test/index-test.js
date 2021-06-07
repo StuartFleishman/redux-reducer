@@ -38,7 +38,7 @@ describe('manageFriends', () => {
   it("adds the friend when type is 'ADD_FRIEND' and the action has a friend property with a name, hometown and id", () =>{
     expect(manageFriends(state, {
       type: "ADD_FRIEND",
-      friend: {
+      fred: {
         name: 'Joe',
         hometown: 'Boston',
         id: 101
